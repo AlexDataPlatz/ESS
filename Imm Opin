@@ -1,4 +1,4 @@
-# install necessary packages
+# install/ run necessary packages
 library(questionr)
 library(tidyverse)
 library(essurvey)
@@ -7,9 +7,9 @@ library(survey)
 library(tidyselect)
 library(knitr)
 
-
-# set email address (same one as used for ESS account log in)
-set_email("alexander.hartland@postgrad.manchester.ac.uk")
+# register for an ESS account here: https://www.europeansocialsurvey.org/user/new
+# set email address (same as used to create ESS account)
+set_email("name@email")
 
 
 # import data from each round (nb this can take several minutes)
