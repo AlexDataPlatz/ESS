@@ -679,5 +679,4 @@ longall <- pivot_longer(allcl,
 ggplot(corecl) +
   geom_line(aes(year, open, colour = ctry)) +
   geom_hline(yintercept=50, linetype="dashed", colour = "grey10") +
-  
   facet_wrap(~ ctry)
